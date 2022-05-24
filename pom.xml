@@ -15,6 +15,12 @@
         <version>2.6.7</version>
         <relativePath/>
     </parent>
+
+<!--  自定义修改版本号  -->
+<!--    <properties>-->
+<!--        <mysql.version>5.1.49</mysql.version>-->
+<!--    </properties>-->
+
 <!--  依赖  -->
 <!--  maven仓库：https://mvnrepository.com/  -->
     <dependencies>
@@ -23,6 +29,7 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <!--    mysql    -->
 <!--        <dependency>-->
 <!--            <groupId>mysql</groupId>-->
